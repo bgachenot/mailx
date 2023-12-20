@@ -1,10 +1,10 @@
 Mailx
 ======
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/valord577/mailx)](https://goreportcard.com/report/github.com/valord577/mailx)
-[![Go Reference](https://pkg.go.dev/badge/github.com/valord577/mailx.svg)](https://pkg.go.dev/github.com/valord577/mailx)
-[![GitHub License](https://img.shields.io/github/license/valord577/mailx)](LICENSE)
-[![codecov](https://codecov.io/gh/valord577/mailx/branch/main/graph/badge.svg?token=GXGTBNC94F)](https://codecov.io/gh/valord577/mailx)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bgachenot/mailx)](https://goreportcard.com/report/github.com/bgachenot/mailx)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bgachenot/mailx.svg)](https://pkg.go.dev/github.com/bgachenot/mailx)
+[![GitHub License](https://img.shields.io/github/license/bgachenot/mailx)](LICENSE)
+[![codecov](https://codecov.io/gh/bgachenot/mailx/branch/main/graph/badge.svg?token=GXGTBNC94F)](https://codecov.io/gh/bgachenot/mailx)
 
 Mailx is a library that makes it easier to send email via SMTP. It is an enhancement of the golang standard library `net/smtp`.
 
@@ -30,7 +30,7 @@ Installing
 go mod:
 
 ```shell
-go get github.com/valord577/mailx
+go get github.com/bgachenot/mailx
 ```
 
 Example
@@ -47,3 +47,5 @@ License
 ------
 
 See the [LICENSE](LICENSE) for Rights and Limitations (MIT).
+
+toto

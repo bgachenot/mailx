@@ -19,7 +19,7 @@ func (s *Sender) Send(m *Message) error {
 		return err
 	}
 
-	m.setFrom(s.from)
+	m.SetFrom(s.from)
 	return s.send(s.from, rcpt, m)
 }
 

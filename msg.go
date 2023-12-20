@@ -38,10 +38,6 @@ type Message struct {
 	files  []*file
 }
 
-func (m *Message) setFrom(from string) {
-	m.header.from = from
-}
-
 func (m *Message) rcpt() ([]string, error) {
 	lenTo := len(m.header.to)
 	lenCc := len(m.header.cc)
@@ -121,7 +117,7 @@ func (h *header) messageId() (string, error) {
 
 func (h *header) userAgent() string {
 	if h.ua == "" {
-		return "github/valord577/mailx " + runtime.Version() + " " + runtime.GOOS + "/" + runtime.GOARCH
+		return "github/bgachenot/mailx " + runtime.Version() + " " + runtime.GOOS + "/" + runtime.GOARCH
 	}
 	return h.ua
 }

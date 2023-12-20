@@ -25,6 +25,10 @@ func NewMessage() *Message {
 	}
 }
 
+func (m *Message) SetFrom(from string) {
+	m.header.from = from
+}
+
 // SetTo sets the header of email message: 'TO'.
 func (m *Message) SetTo(address ...string) {
 	to := make([]*mail.Address, 0, len(address))

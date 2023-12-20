@@ -1,4 +1,4 @@
-module github.com/valord577/mailx
+module github.com/bgachenot/mailx
 
 go 1.16
 
